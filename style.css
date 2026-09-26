@@ -136,7 +136,7 @@ nav a:hover { color: var(--leaf); }
 .hero {
   background:
     linear-gradient(180deg, rgba(8,40,33,0.63), rgba(8,40,33,0.72)),
-    url('images/main-bg.png') center/cover no-repeat,
+    url('main-bg.png') center/cover no-repeat,
     var(--forest-deep);
   color: #fff; padding: clamp(80px, 14vw, 140px) 24px clamp(60px, 10vw, 100px); position: relative; overflow: hidden;
 }
