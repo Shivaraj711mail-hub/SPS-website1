@@ -133,7 +133,13 @@ nav a:hover { color: var(--leaf); }
 }
 
 /* ---------- Hero ---------- */
-.hero { background: var(--forest-deep); color: #fff; padding: clamp(80px, 14vw, 140px) 24px clamp(60px, 10vw, 100px); position: relative; overflow: hidden; }
+.hero {
+  background:
+    linear-gradient(180deg, rgba(8,40,33,0.63), rgba(8,40,33,0.72)),
+    url('images/main-bg.png') center/cover no-repeat,
+    var(--forest-deep);
+  color: #fff; padding: clamp(80px, 14vw, 140px) 24px clamp(60px, 10vw, 100px); position: relative; overflow: hidden;
+}
 .hero .wrap { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 48px; align-items: center; }
 .hero-tag { color: var(--leaf); font-weight: 600; font-size: 0.95rem; margin-bottom: 18px; display: block; }
 .hero h2 { font-size: clamp(2rem, 4.5vw, 3.4rem); color: #fff; max-width: 13ch; }
